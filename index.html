@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ <meta charset="UTF-8" />
+ <title>Visual MCTS</title>
+</head>
+<body>
+
+<h1>MCTS visualization samples</h1>
+
+<p>
+Examples of MCTS visualizations for the game Go, based on a naive built-in MCTS using KataGo's neural network. This feature will be available in <a href="https://github.com/kaorahi/lizgoban">LizGoban</a> 0.8.1-pre2.
+</p>
+
+<p>
+<video controls style="max-width: 100%; height: auto;">
+  <source src="https://kaorahi.github.io/visual_MCTS/sample1/mcts_x4.mp4" type="video/mp4">
+</video>
+<br>
+(This video is at 4x real-time speed.)
+</p>
+
+<p>
+The result can be exported to a self-contained single HTML file.
+</p>
+
+<p>
+The node colors represent estimated winrates (blue = high, red = low for Black). Use the +/- keys to zoom. Hover over a node for more details.
+</p>
+
+<ul>
+ <li><a href="sample1/sample_diagram.html">Sample 1</a>: 500-visits diagram in the above video.</li>
+ <li><a href="https://github.com/kaorahi/visual_MCTS/sample2/">Sample 2</a>: 2000-visits diagram from KataGo issue #990.</li>
+</ul>
+
+<a href="https://github.com/kaorahi/visual_MCTS/">GitHub</a>
+
+</body>
