@@ -12,6 +12,13 @@ Just a very quick experiment related to the idea ["this stone should run away"](
   * Just to note, adjusting the PUCT coefficient or the temperature scaling didn't seem to help, at least in very quick tests.
 * By averaging the standard 18b policy and the humanSL 9k policy, it successfully found the expected solution. The key part of the problem is at least solved, though the solution doesn't go to the end and includes many unrelated nodes. Click the root node to check the PV. (Diagram D: truncated to [200 nodes](https://kaorahi.github.io/visual_MCTS/sample4/human9k_200nodes.html), [1600 nodes](https://kaorahi.github.io/visual_MCTS/sample4/human9k_1600nodes.html))
 
+Other problems (18b + humanSL 9k, no diagrams):
+
+* [level 3-2](https://www.youtube.com/watch?v=CHjyd1gSVo8): solved in 15000 visits
+* [level 4-5](https://www.youtube.com/watch?v=o0-6Mnrodm8): solved in 1000 visits
+* [level 3-4](https://www.youtube.com/watch?v=klrdSsNo8-U): solved immediately
+* [level 4-1](https://www.youtube.com/watch?v=iq90khXBIgY): solved in 2000 visits
+
 [Source code](https://github.com/kaorahi/lizgoban/tree/runaway_250325a): Shift + double-click a stone to start MCTS using "this stone should run away" behavior. Make sure to specify `-human-model` in the KataGo settings.
 
 [Home](https://kaorahi.github.io/visual_MCTS/)
