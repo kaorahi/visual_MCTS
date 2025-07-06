@@ -1,14 +1,14 @@
 # MCTS visualization sample 5
 
-"Snakebite" by [kendfrey](http://kendallfrey.com/): White to play. What is the result? (It was posted on 2025-07-01, in the `#game-analysis` channel of the "Computer Go Community" Discord server.)
+"Snakebite" by [kendfrey](https://github.com/kendfrey): White to play. What is the result? (It was posted on 2025-07-01, in the `#game-analysis` channel of the "Computer Go Community" Discord server.)
 
 This puzzle goes beyond the usual atari-atari problems. Give it a try!
 
 <img src="snakebite.png" width="50%">
 
-Original SGF
-[link1](https://tinyurl.com/snakebite-sgf)
-[link2](https://gist.githubusercontent.com/kendfrey/b30d5b0719f28b12992dc7c3d24de5c8/raw/c57acf5e67acd1a238e9d39ddc824f7aeef2933d/snakebite.sgf)
+(SGF)
+[problem](https://gist.githubusercontent.com/kendfrey/b30d5b0719f28b12992dc7c3d24de5c8/raw/c57acf5e67acd1a238e9d39ddc824f7aeef2933d/snakebite.sgf)
+[solution](https://gist.githubusercontent.com/kendfrey/5870223a84eef220d29c5a8bf6f00bf9/raw/eb810cb14d7206b9240c068874c6b79a75a41cb5/snakebite_solution.sgf)
 
 ## Spoiler alert
 
